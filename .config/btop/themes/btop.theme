@@ -1,0 +1,58 @@
+# Doom One inspired btop theme
+theme[main_bg]="#f5f5f5ff"
+theme[main_fg]="#bbc2cf"`
+
+theme[title]="#51afef"        # titles, headings
+theme[hi_fg]="#46D9FF"        # highlight (hotkeys etc)
+
+theme[selected_bg]="#3f444a"
+theme[selected_fg]="#DFDFDF"
+
+theme[inactive_fg]="#5B6268"
+theme[proc_misc]="#98be65"
+
+theme[cpu_box]="#3f444a"
+theme[mem_box]="#3f444a"
+theme[net_box]="#3f444a"
+theme[proc_box]="#3f444a"
+theme[div_line]="#3f444a"
+
+# Temperature graph colors
+theme[temp_start]="#51afef"
+theme[temp_mid]="#46D9FF"
+theme[temp_end]="#DFDFDF"
+
+# CPU graph colors
+theme[cpu_start]="#51afef"
+theme[cpu_mid]="#46D9FF"
+theme[cpu_end]="#DFDFDF"
+
+# Mem/Disk free meter
+theme[free_start]="#98be65"
+theme[free_mid]="#98be65"
+theme[free_end]="#DFDFDF"
+
+# Mem/Disk cached meter
+theme[cached_start]="#98be65"
+theme[cached_mid]="#c678dd"
+theme[cached_end]="#DFDFDF"
+
+# Mem/Disk available meter
+theme[available_start]="#ECBE7B"
+theme[available_mid]="#51afef"
+theme[available_end]="#DFDFDF"
+
+# Mem/Disk used meter
+theme[used_start]="#ed8796"
+theme[used_mid]="#c678dd"
+theme[used_end]="#DFDFDF"
+
+# Download graph colors
+theme[download_start]="#46D9FF"
+theme[download_mid]="#51afef"
+theme[download_end]="#DFDFDF"
+
+# Upload graph colors
+theme[upload_start]="#51afef"
+theme[upload_mid]="#46D9FF"
+theme[upload_end]="#DFDFDF"

@@ -1,0 +1,95 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json", // Optional: Provides IDE intelligence
+"logo": {
+"source": "~/.local/share/fastfetch/ascii/arch.txt",
+"padding": {
+"left": 1
+},
+"color": {
+"1": "white",
+"2": "white"
+}
+},
+
+
+"display": {
+"color": {
+"title": "white"
+},
+"hideCursor": false,
+"separator": "   "
+},
+"modules": [
+"title",
+"separator",
+{
+"type": "host",
+"keyColor": "white",
+"key": " PC"
+},
+{
+"type": "CPU",
+"keyColor": "white",
+"key": "  ├"
+},
+{
+"type": "gpu",
+"keyColor": "white",
+"detectionMethod": "vulkan",
+"key": "  ├﬙"
+},
+{
+"type": "memory",
+"keyColor": "white",
+"key": "  ├"
+},
+{
+"type": "os",
+"keyColor": "white",
+"key": "󰌽 OS"
+},
+{
+"type": "kernel",
+"keyColor": "white",
+"key": "  ├󰣇"
+},
+{
+"type": "terminal",
+"keyColor": "white",
+"key": "  ├"
+},
+{
+"type": "TerminalFont",
+"keyColor": "white",
+"key": "  ├"
+},
+{
+"type": "Packages",
+"keyColor": "white",
+"key": "  ├󰏖"
+},
+{
+"type": "Cursor",
+"keyColor": "white",
+"key": "  ├󰇀"
+},
+{
+"type": "Uptime",
+"keyColor": "white",
+"key": "  ├󰔟"
+},
+{
+"type": "command",
+"keyColor": "white",
+"text": "birth_install=$(stat -c %W /); current=$(date +%s); days_difference=$(( (current - birth_install) / 86400 )); echo Uptime $days_difference days",
+"key": "  ╰󱛡"
+},
+
+"break",
+{
+"type": "colors",
+"paddingLeft": 0,
+"symbol": "square"
+}
+]
+}
